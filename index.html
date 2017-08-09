@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+    <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>Fill in the blanks to write your postcard.</h1>
+        <form id="formOne">
+          <div class="form">
+            <label for="name">A name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form">
+            <label for="address">Address</label>
+            <input id="address" class="form-control" type="text">
+          </div>
+          <div class="form">
+            <label for="place">Place</label>
+            <input id="place" class="form-control" type="text">
+          </div>
+          <div class="form">
+            <label for="message">Message</label>
+            <input id="message" class="form-control" type="text">
+          </div>
+          <div class="form">
+            <label for="yourName">Your name</label>
+            <input id="yourName" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me the postcard!</button>
+        </form>
+      </div>
+
+      <div class="postcard">
+        <div class="well">
+          <img src="img/postcard.jpg" alt="postcard"/>
+          <p><span class="place"></span></p>
+        </div>
+      </div><!--postcard-->
+      <div class="postcardback">
+        <div class="well">
+          <img src="img/postcardback.jpg" alt="postcardback" />
+          <p><span class="message"></span></p>
+          <p><span class="address"></span></p>
+          <p><span class="name"></span></p>
+          <p><span class="yourName"></span></p>
+        </div>
+      </div> <!--postcard back-->
+
+    </div>
+  </body>
+</html>
