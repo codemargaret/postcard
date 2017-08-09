@@ -13,8 +13,8 @@ $(document).ready(function(){
     $(".message").text(messageInput);
     $(".yourName").text(yourNameInput);
 
-    $(".postcard").show();
-    $(".postcardback").show();
+    $("#front").show();
+    $("#back").show();
 
     event.preventDefault();
   });

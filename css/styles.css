@@ -1,8 +1,12 @@
 
-.postcard {
+#front {
   display: none;
+  background-image: url("postcard.jpg");
+  background-repeat: no-repeat;
 }
 
-.postcardback {
+#back {
   display: none;
+  background-image: url("postcardback.jpg");
+  background-repeat: no-repeat;
 }
